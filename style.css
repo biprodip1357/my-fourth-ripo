@@ -1,0 +1,22 @@
+li:last-child{
+    color: blue;
+    <!--external css comment and link add in list css er modhe-->
+}
+li:nth-child(2n){
+    color: brown;
+}
+.heading:hover{
+    border-radius: 100px;
+}
+h1:hover{
+    color: red;
+    border: 2px solid aquamarine;
+    background-color: lightcoral;
+    color: white;
+}
+h1::before{
+    content: "start";
+}
+h1::after{
+    content: "no 2";
+}
